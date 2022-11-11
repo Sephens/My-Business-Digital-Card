@@ -16,10 +16,12 @@
 }
 
 body {
-  margin: 0;
-  display: flex;
+  background-color: rgb(154, 174, 192);
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
 
 }
 
