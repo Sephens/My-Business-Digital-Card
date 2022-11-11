@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-img{
+    width:100%;
+    border-radius: 23px 23px 0 0;
+}
+
+.info-sec-header{
+    font-size: 23px;
+    color: black;
+    font-weight: 700;
+}
+.info-sec-desc{
+    font-size: 18px;
+    color: chocolate;
+
+}
+.link{
+    color: black;
+    font-size: 12px;
+    padding: 6px;
+    text-decoration: none;
+
+}
+.link:hover{
+    color: coral;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.btn{
+    padding: 12px;
+    width: 30%;
+    justify-content: center;
+}
+#email{
+    background-color: white;
+    color: black;
+    border: 1px solid chocolate;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#linkedin{
+    background-color: rgb(76, 62, 202);
+    color: white;
+    border: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.about-head{
+    color: black;
+    margin-left: 0;
+    text-align: start;
+    margin-left: 36px;
+}
+
+#about-paragraph{
+    color: black;
+    text-align: justify;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.interest-head{
+    color: black;
+    margin-left: 0;
+    text-align: start;
+    margin-left: 36px;
+}
+
+#interest-paragraph{
+    color: black;
+    text-align: justify;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.footer{
+    background-color: rgb(93, 94, 95);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 23px 23px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons{
+    font-size: 26px;
+    cursor: pointer;
+}
+.social-icons:hover{
+    color: chocolate;
+}
+
+#twitter{
+    color: blue;
+}
+#instagram{
+    color: rgb(173, 17, 69);
+}
+#facebook{
+    color: rgb(69, 69, 128);
+}
+#github{
+    color: black;
+}
