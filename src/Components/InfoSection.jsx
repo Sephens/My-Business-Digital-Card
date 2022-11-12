@@ -10,11 +10,11 @@ function InfoSection() {
     <img src={Banner} alt="myimage" className="info-img"/>
     <h1 className='info-sec-header'>Steven Odhiambo</h1>
     <h3 className='info-sec-desc'>Fullstack Engineer</h3>
-    <a href='#' className='link'>github.com/Sephens</a>
+    <a href='https://github.com/Sephens' className='link'>Sephens</a>
 
     <div className='btn-div'>
-    <button className='btn' id='email'> <MdEmail/> Email</button>
-    <button className='btn' id='linkedin'><FaLinkedin/> LinkedIn</button>
+    <a className='btn' id='email'> <MdEmail/> Email</a>
+    <a className='btn' id='linkedin' href='https://www.linkedin.com/in/steven-adenux/'><FaLinkedin /> LinkedIn</a>
     </div>
 
     </div>

@@ -6,6 +6,8 @@ import InfoSection from './Components/InfoSection'
 import Interests from './Components/Interests'
 import './App.css'
 
+import './Styles/my.css'
+
 function App() {
   const [count, setCount] = useState(0)
 

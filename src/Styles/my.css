@@ -28,14 +28,14 @@
 }
 .link{
     color: black;
-    font-size: 12px;
+    font-size: 16px;
     padding: 6px;
     text-decoration: none;
 
 }
 .link:hover{
     color: coral;
-    border: 1px solid black;
+    border: 1px solid chocolate;
     border-radius: 6px;
 }
 
@@ -52,21 +52,36 @@
     padding: 12px;
     width: 30%;
     justify-content: center;
+    text-decoration: none;
 }
 #email{
     background-color: white;
     color: black;
     border: 1px solid chocolate;
-    border-radius: 8px;
+    border-radius: 12px;
     cursor: pointer;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: space-around;
 }
-
+#email:hover{
+    background-color: chocolate;
+    color: white;
+}
 #linkedin{
     background-color: rgb(76, 62, 202);
     color: white;
     border: 1px;
-    border-radius: 8px;
+    border-radius: 12px;
+    font-size: 16px;
     cursor: pointer;
+    justify-content: space-around;
+}
+
+#linkedin:hover{
+    background-color: chocolate;
+    color: rgb(76, 62, 202);
+
 }
 
 .about-head{
@@ -103,16 +118,14 @@
     display: flex;
     flex-direction: row;
     border-radius: 0 0 23px 23px;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
 }
 
 .social-icons{
     font-size: 26px;
     cursor: pointer;
-}
-.social-icons:hover{
-    color: chocolate;
+    padding: 0 10px;
 }
 
 #twitter{
@@ -126,4 +139,69 @@
 }
 #github{
     color: black;
+}
+
+#twitter:hover{
+    color: chocolate;
+}
+#instagram:hover{
+    color: chocolate;
+}
+#facebook:hover{
+    color: chocolate;
+}
+#github:hover{
+    color: chocolate;
+}
+
+
+@media screen and (max-width: 800px) {
+    .info-img{
+        max-width: 100%;
+        display: block;
+
+    }
+    .info-sec-header, .info-sec-desc, .link {
+        display: block;
+        justify-content: center;
+        /* width: 100%; */
+        padding: 8px;
+        text-align: center;
+    }
+    .btn-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: 
+        space-between;
+        gap: 22px;
+        align-items: center;
+    }
+
+    .btn{
+        width: 70%;
+        align-items: center;
+        
+        
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .interest{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    
 }
