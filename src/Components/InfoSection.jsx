@@ -13,8 +13,8 @@ function InfoSection() {
     <a href='https://github.com/Sephens' className='link'>steve@dev.com</a>
 
     <div className='btn-div'>
-    <a className='btn' id='email'> <MdEmail/> Email</a>
-    <a className='btn' id='linkedin' href='https://www.linkedin.com/in/steven-adenux/'><FaLinkedin /> LinkedIn</a>
+    <a className='btn' id='email'> <MdEmail id='icon'/> Email</a>
+    <a className='btn' id='linkedin' href='https://www.linkedin.com/in/steven-adenux/'><FaLinkedin  id='icn'/> LinkedIn</a>
     </div>
 
     </div>

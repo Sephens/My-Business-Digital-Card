@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Concert+One&family=Poppins:ital,wght@0,100;0,400;0,700;1,100&family=Sono:wght@200&display=swap');
 .container {
     display: flex;
     flex-direction: column;
@@ -20,10 +21,12 @@
     font-size: 23px;
     color: black;
     font-weight: 700;
+    font-family: 'Ranchers', cursive;
 }
 .info-sec-desc{
     font-size: 18px;
     color: chocolate;
+    font-family: 'Ranchers', cursive;
 
 }
 .link{
@@ -31,6 +34,7 @@
     font-size: 16px;
     padding: 6px;
     text-decoration: none;
+    font-family: 'Antonio', sans-serif;
 
 }
 .link:hover{
@@ -61,8 +65,13 @@
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
+    font-family: 'Ranchers', cursive;
     cursor: pointer;
-    justify-content: space-around;
+    align-items: center;
+    
+}
+#email > #icon{
+    padding-right: 8px;
 }
 #email:hover{
     background-color: chocolate;
@@ -71,11 +80,16 @@
 #linkedin{
     background-color: rgb(76, 62, 202);
     color: white;
+    font-family: 'Ranchers', cursive;
     border: 1px;
     border-radius: 12px;
     font-size: 16px;
     cursor: pointer;
-    justify-content: space-around;
+    align-items: center;
+}
+
+#linkedin > #icn{
+    padding-right: 8px;
 }
 
 #linkedin:hover{
@@ -89,6 +103,7 @@
     margin-left: 0;
     text-align: start;
     margin-left: 36px;
+    font-family: 'Ranchers', cursive;
 }
 
 #about-paragraph{
@@ -96,6 +111,7 @@
     text-align: justify;
     margin-left: 36px;
     margin-right: 36px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .interest-head{
@@ -103,6 +119,7 @@
     margin-left: 0;
     text-align: start;
     margin-left: 36px;
+    font-family: 'Ranchers', cursive;
 }
 
 #interest-paragraph{
@@ -110,6 +127,7 @@
     text-align: justify;
     margin-left: 36px;
     margin-right: 36px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer{
