@@ -5,7 +5,7 @@ import { TiSocialTwitter, TiSocialFacebook, TiSocialInstagram, TiSocialGithubCir
 function Footer() {
   return (
     <div className='footer'>
-      <a href='https://twitter.com/sephenz'><TiSocialTwitter className='social-icons' id='twitter'/></a>
+      <a href='https://twitter.com/_Sephens'><TiSocialTwitter className='social-icons' id='twitter'/></a>
       <a href='https://www.facebook.com/adenux.sephens'><TiSocialFacebook className='social-icons' id='facebook' /></a>
       <a><TiSocialInstagram className='social-icons' id='instagram' href=''/></a>
       <a href='https://github.com/Sephens'><TiSocialGithubCircular className='social-icons' id='github' /></a>
