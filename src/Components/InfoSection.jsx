@@ -10,7 +10,7 @@ function InfoSection() {
     <img src={Banner} alt="myimage" className="info-img"/>
     <h1 className='info-sec-header'>Steven Odhiambo</h1>
     <h3 className='info-sec-desc'>Fullstack Engineer</h3>
-    <a href='https://github.com/Sephens' className='link'>steve@dev.com</a>
+    <a href='https://portfolio-lake-five-68.vercel.app/' className='link'>steve@dev.com</a>
 
     <div className='btn-div'>
     <a className='btn' id='email'> <MdEmail id='icon'/> Email</a>
