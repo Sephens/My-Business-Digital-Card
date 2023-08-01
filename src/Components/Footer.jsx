@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/my.css'
 import { TiSocialTwitter, TiSocialFacebook, TiSocialInstagram, TiSocialGithubCircular } from 'react-icons/ti';
 
-function Footer() {
+export default function Footer() {
   return (
     <div className='footer'>
       <a href='https://twitter.com/_Sephens'><TiSocialTwitter className='social-icons' id='twitter'/></a>
@@ -13,4 +13,4 @@ function Footer() {
   )
 }
 
-export default Footer
+// export default Footer

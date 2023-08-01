@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'
 import mycss from '../Styles/my.css'
 
-function InfoSection() {
+export default function InfoSection() {
   return (
     <div className='info-sec'>
     <img src={Banner} alt="myimage" className="info-img"/>
@@ -21,4 +21,4 @@ function InfoSection() {
   )
 }
 
-export default InfoSection
+// export default InfoSection
