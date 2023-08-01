@@ -111,7 +111,7 @@
     text-align: justify;
     margin-left: 36px;
     margin-right: 36px;
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Concert One', sans-serif;
 }
 
 .interest-head{
@@ -127,7 +127,9 @@
     text-align: justify;
     margin-left: 36px;
     margin-right: 36px;
-    font-family: 'Antonio', sans-serif;
+    font-display: swap;
+    font-weight: 400;
+    font-family: 'Concert One', sans-serif;
 }
 
 .footer{
