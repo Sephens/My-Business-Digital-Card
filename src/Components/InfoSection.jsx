@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../assets/banner.jpg'
+import Banner from '../assets/me.jpg'
 import { MdEmail } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'
 import mycss from '../Styles/my.css'
