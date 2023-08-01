@@ -1,7 +1,7 @@
 import React from 'react'
 import mycss from '../Styles/my.css'
 
-function Interests() {
+export default function Interests() {
   return (
     <div className='interest'>
     <h2 className='interest-head'>Interests</h2>
@@ -10,4 +10,5 @@ function Interests() {
   )
 }
 
-export default Interests
+// export default Interests
+
