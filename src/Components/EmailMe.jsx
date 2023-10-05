@@ -1,31 +1,55 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 
-const EmailMe = () => {
-  const [email, setEmail] = useState('');
+class EmailMe extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: '',
+      message: '',
+    };
+  }
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+  handleInputChange = (e) => {
+    const { name, value } = e.target;
+    this.setState({
+      [name]: value,
+    });
+  }
 
-  const handleSubmit = (e) => {
+  handleSubmit = (e) => {
     e.preventDefault();
-    // Do something with the email, for example, send it to a server or display it
-    console.log('Email submitted:', email);
-  };
+    // You can add code here to send the email using an email service.
+    // For simplicity, we'll just log the values for now.
+    console.log('Email:', this.state.email);
+    console.log('Message:', this.state.message);
+  }
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">Enter your email:</label>
-      <input
-        type="email"
-        id="email"
-        value={email}
-        onChange={handleEmailChange}
-        placeholder="example@example.com"
-      />
-      <button type="submit">Submit</button>
-    </form>
-  );
-};
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <div>
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            value={this.state.email}
+            onChange={this.handleInputChange}
+            required
+          />
+        </div>
+        <div>
+          <label>Message:</label>
+          <textarea
+            name="message"
+            value={this.state.message}
+            onChange={this.handleInputChange}
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Send Email</button>
+      </form>
+    );
+  }
+}
 
 export default EmailMe;

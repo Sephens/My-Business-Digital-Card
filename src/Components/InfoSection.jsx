@@ -17,7 +17,6 @@ export default function InfoSection() {
     <a className='btn' id='email'> <MdEmail id='icon'/> Email</a>
     <a className='btn' id='linkedin' href='https://www.linkedin.com/in/steven-adenux/'><FaLinkedin  id='icn'/> LinkedIn</a>
     </div>
-
     </div>
   )
 }
