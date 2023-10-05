@@ -1,22 +1,31 @@
-import mycss from '../Styles/my.css'
+import React, { useState } from 'react';
 
-export default function EmailMe(){
-    return(
+const EmailMe = () => {
+  const [email, setEmail] = useState('');
 
-        <div className="contact-form">
-            <h2 id= 'emailme-header'>Contact Me</h2>
-            <form action="" id="contactForm">
-                <label htmlFor="name">Name: </label>
-                <input type="text" id="name" name="name" required/>
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
 
-                <label htmlFor="email">Email: </label>
-                <input type="email" id="email" name="email" required/>
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Do something with the email, for example, send it to a server or display it
+    console.log('Email submitted:', email);
+  };
 
-                <label htmlFor="message">Message: </label>
-                <textarea name="message" id="message" cols="30" rows="5" required></textarea>
+  return (
+    <form onSubmit={handleSubmit}>
+      <label htmlFor="email">Enter your email:</label>
+      <input
+        type="email"
+        id="email"
+        value={email}
+        onChange={handleEmailChange}
+        placeholder="example@example.com"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  );
+};
 
-                <button type="submit" id='send'>Send</button>
-            </form>
-        </div>
-    )
-}
+export default EmailMe;

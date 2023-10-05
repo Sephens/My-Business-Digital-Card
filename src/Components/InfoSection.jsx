@@ -3,6 +3,7 @@ import Banner from '../assets/banner.jpg'
 import { MdEmail } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'
 import mycss from '../Styles/my.css'
+import EmailMe from './EmailMe.jsx'
 
 export default function InfoSection() {
   return (
